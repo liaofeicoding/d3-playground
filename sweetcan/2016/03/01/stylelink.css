@@ -1,2 +1,7 @@
--d3.select('head').append('link').attr({rel: 'stylesheet', 
-href: 'https://github.com/bigdata-mindstorms/d3-playground/new/gh-pages/sweetcan/2016/03/01/styleink.css'});
+---
+  attr:
+    rel: stylesheet
+    href: https://bigdata-mindstorms/d3-playground/edit/gh-pages/sweetcan/2016/03/01/stylelink.css
+---
+
+d3.select('head').append('link').attr({{page:attr | jsonify}});
