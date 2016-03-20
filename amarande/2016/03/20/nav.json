@@ -1,0 +1,29 @@
+---
+data:
+  home:
+    url:"#"
+    html:首页
+  nav:
+    -
+      url:"#news"
+      html:新闻
+    -
+      url:"#finance"
+      html:财经
+    -
+      url:"#eduction"
+      html:教育
+    -
+      url:"blog"
+      html:博客
+    -
+      url:"#bbs"
+      html:论坛
+---
+
+{{ page.data | jsonify }}
+    
+    
+    
+  
+  
