@@ -19,6 +19,6 @@ function nav(container,data){
            .enter()
            .append('li')
            .append('a')
-           .attr('href',function(d){return d.nav.url})
-           .html(function(d){return d.nav.html});
+           .attr('href',function(d){return d.url})
+           .html(function(d){return d.html});
   }
