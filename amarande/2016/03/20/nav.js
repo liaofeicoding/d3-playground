@@ -7,7 +7,7 @@ function nav(container,data){
   var container_header = container.append('div').attr('class','navbar-header');
   
   container_header.append('a')
-                  .attr('class','navbar-home')
+                  .attr('class','navbar-brand')
                   .attr('href',data.home.url)
                   .html(data.home.html);
                      
