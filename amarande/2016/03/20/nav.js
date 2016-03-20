@@ -13,7 +13,9 @@ function nav(container,data){
                      
   container.append('div')
            .attr('id','navbar')
-           .attr('class','collapse navbar-collapde')
+           .attr('class','collapse navbar-collapse')
+           .append('ul')
+           .attr('class', 'nav navbar-nav')
            .selectAll('li')    
            .data(data.nav)
            .enter()
