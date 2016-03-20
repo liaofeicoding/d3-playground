@@ -1,3 +1,3 @@
-https://bigdata-mindstorms.github.io/d3-playground/#https://bigdata-mindstorms.github.io/d3-playground/amarande/2016/03/04/css_link.js
+https://bigdata-mindstorms.github.io/d3-playground/#https://bigdata-mindstorms/d3-playground/blob/gh-pages/sweetcan/2016/03/01/link.js
 
-https://bigdata-mindstorms.github.io/d3-playground/#https://bigdata-mindstorms.github.io/d3-playground/amarande/2016/03/04/css_style.js
+https://bigdata-mindstorms.github.io/d3-playground/#https://bigdata-mindstorms/d3-playground/blob/gh-pages/sweetcan/2016/03/01/stylelink.js
