@@ -6,7 +6,7 @@ function nav(container,data){
     .append('div').attr('class', 'container');
   var container_header = container.append('div').attr('class','navbar-header');
 
-  var button = navbar_header.append('button')
+  var button = container_header.append('button')
       .attr('type', 'button')
       .attr('class', 'navbar-toggle collapsed')
       .attr('data-toggle', 'collapse')
