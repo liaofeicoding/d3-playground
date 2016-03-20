@@ -1,0 +1,14 @@
+---
+layout: d3
+data: 
+  nav: nav.json
+---
+
+<script src = "load_bootstrap.js"></script>
+<script src = "nav.js"></script>
+<script>
+load_bootstrap();
+d3.json('{{page.data.nav}}',function(e,d){
+  if(!e){ nav(d3.select('body'),d);}
+});
+</script>
