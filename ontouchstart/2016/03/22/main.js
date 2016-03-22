@@ -1,7 +1,6 @@
 var head = d3.select('head');
 var body = d3.select('body');
-head.select('title').html('Flex Test')
-
+head.select('title').html('A study of CSS flexible boxes')
 
 function top_center() {
   body.html('');
