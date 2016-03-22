@@ -14,10 +14,13 @@ function flex_center_test() {
 body.append('a')
   .attr('href', '#flex_center_test')
   .html('flex_center_test');
-
-window.onhashchange = function () {
+  
+function load () {
   switch (location.hash) {
     case '#flex_center_test': load_js('flex_center.js', flex_center_test);
     break;
   }
 };
+
+window.addEventListener('load', load);
+window.addEventListener('hashchange', load);
