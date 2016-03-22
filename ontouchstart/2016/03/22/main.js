@@ -13,10 +13,8 @@ function test_flex_center_center() {
 
 function init() {
   body.html('');
-  var ul = body.append('ul');
-  ul.style('display', 'block')
-    .style('margin-top', '1em')
-    .style('margin', 'auto');
+  var ul = body.append('ul')
+    .style('margin', '3em');
   ul.append('li')
     .append('a')
     .attr('href', '#test_flex_center_center')
