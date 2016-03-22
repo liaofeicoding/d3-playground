@@ -23,7 +23,7 @@ function center_center() {
     .style('width', '100%')
     .style('height', '100%')
     .style('background', 'white')
-    .style('justify-content', 'center');
+    .style('justify-content', 'center')
     .style('align-items', 'center');
   var h1 = container.append('h1')
     .html('hello world');
@@ -36,7 +36,7 @@ function bottom_center() {
     .style('width', '100%')
     .style('height', '100%')
     .style('background', 'white')
-    .style('justify-content', 'center');
+    .style('justify-content', 'center')
     .style('align-items', 'flex-end');
   var h1 = container.append('h1')
     .html('hello world');
