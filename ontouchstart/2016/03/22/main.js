@@ -1,5 +1,5 @@
+var head = d3.select('head');
 var body = d3.select('body');
-
 function test_flex_center_center() {
   body.html('');
   var container = body.append('div')
@@ -25,8 +25,9 @@ function test_flex_bottom_center() {
 
 function init() {
   body.html('');
-  var ul = body.append('ul')
-    .style('margin', '3em');
+  head.append('style').html('ul { margin: 3em;}');
+  head.append('style').html('li { margin: 1em;}');
+  var ul = body.append('ul');
   ul.append('li')
     .append('a')
     .attr('href', '#test_flex_center_center')
