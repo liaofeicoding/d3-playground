@@ -1,13 +1,7 @@
-function flex_center(container) { 
-  container.style('display', 'flex');
-  container.style('justify-content', 'center');
-  container.style('align-items', 'center');
+function flex_center_test() {
+  var container = d3.select('div#container');
+  var h1 = container.append('h1').html('hello world');
+  flex_center(container);
 }
 
-console.log(d3);
-var container = d3.select('div#container');
-var [w, h] = [container.style('width'), container.style('height')].map(parseFloat);
-console.log(w, h);
-var h1 = container.append('h1').html('hello world');
-
-flex_center(container);
+load_js('flex_center.js', flex_center_test);
