@@ -2,39 +2,43 @@ var head = d3.select('head');
 var body = d3.select('body');
 head.select('title').html('Flex Test')
 
-function test_flex_top_center() {
+
+function top_center() {
   body.html('');
   var container = body.append('div')
+    .style('display', 'flex')
     .style('width', '100%')
     .style('height', '100%')
-    .style('background', 'white');
-  flex_center(container);
+    .style('background', 'white')
+    .style('justify-content', 'center')
+    .style('align-items', 'flex-start');
   var h1 = container.append('h1')
-    .style('align-self', 'flex-start')
     .html('hello world');
 }
 
-function test_flex_center_center() {
+function center_center() {
   body.html('');
   var container = body.append('div')
+    .style('display', 'flex')
     .style('width', '100%')
     .style('height', '100%')
-    .style('background', 'white');
-  flex_center(container);
+    .style('background', 'white')
+    .style('justify-content', 'center');
+    .style('align-items', 'center');
   var h1 = container.append('h1')
-    .style('align-self', 'center')
     .html('hello world');
 }
 
-function test_flex_bottom_center() {
-  body.html('');
+function bottom_center() {
+    body.html('');
   var container = body.append('div')
+    .style('display', 'flex')
     .style('width', '100%')
     .style('height', '100%')
-    .style('background', 'white');
-  flex_center(container);
+    .style('background', 'white')
+    .style('justify-content', 'center');
+    .style('align-items', 'flex-end');
   var h1 = container.append('h1')
-    .style('align-self', 'flex-end')
     .html('hello world');
 }
 
@@ -45,29 +49,28 @@ function init() {
   var ul = body.append('ul');
   ul.append('li')
     .append('a')
-    .attr('href', '#flex_top_center')
-    .html('flex_top_center');
+    .attr('href', '#top_center')
+    .html('top_center');
   ul.append('li')
     .append('a')
-    .attr('href', '#flex_center_center')
-    .html('flex_center_center');
+    .attr('href', '#center_center')
+    .html('center_center');
   ul.append('li')
     .append('a')
-    .attr('href', '#flex_bottom_center')
-    .html('flex_bottom_center');
+    .attr('href', '#bottom_center')
+    .html('bottom_center');
 }
 
 function load () {
   switch (location.hash) {
-    case '#flex_top_center': 
-      load_js('flex_center.js', test_flex_top_center);
+    case '#top_center': 
+      top_center();
       break;
-
-    case '#flex_center_center': 
-      load_js('flex_center.js', test_flex_center_center);
+    case '#center_center': 
+      center_center();
       break;
-    case '#flex_bottom_center': 
-      load_js('flex_center.js', test_flex_bottom_center);
+    case '#bottom_center': 
+      bottom_center();
       break;  
     default: 
       init();
