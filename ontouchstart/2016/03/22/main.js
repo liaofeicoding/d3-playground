@@ -1,5 +1,6 @@
 var head = d3.select('head');
 var body = d3.select('body');
+head.select('title').html('Flex Test')
 function test_flex_center_center() {
   body.html('');
   var container = body.append('div')
@@ -30,20 +31,20 @@ function init() {
   var ul = body.append('ul');
   ul.append('li')
     .append('a')
-    .attr('href', '#test_flex_center_center')
-    .html('Test flex_center_center');
+    .attr('href', '#flex_center_center')
+    .html('flex_center_center');
   ul.append('li')
     .append('a')
-    .attr('href', '#test_flex_bottom_center')
-    .html('Test flex_bottom_center');
+    .attr('href', '#flex_bottom_center')
+    .html('flex_bottom_center');
 }
 
 function load () {
   switch (location.hash) {
-    case '#test_flex_center_center': 
+    case '#flex_center_center': 
       load_js('flex_center.js', test_flex_center_center);
       break;
-    case '#test_flex_bottom_center': 
+    case '#flex_bottom_center': 
       load_js('flex_center.js', test_flex_bottom_center);
       break;  
     default: 
