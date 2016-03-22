@@ -22,6 +22,7 @@ function test_flex_center_center() {
     .style('background', 'white');
   flex_center(container);
   var h1 = container.append('h1')
+    .style('align-self', 'center')
     .html('hello world');
 }
 
