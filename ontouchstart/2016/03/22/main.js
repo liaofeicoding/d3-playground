@@ -16,7 +16,8 @@ body.append('a')
   .html('flex_center_test');
 
 window.onhashchange = function () {
-  if(location.hash === '#flex_center_test') {
-    load_js('flex_center.js', flex_center_test);
+  switch (location.hash) {
+    case '#flex_center_test': load_js('flex_center.js', flex_center_test);
+    break;
   }
 };
