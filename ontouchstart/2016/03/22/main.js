@@ -1,5 +1,7 @@
+var body = d3.select('body');
+
 function flex_center_test() {
-  var body = d3.select('body').html('');
+  body.html('');
   var container = body.append('div')
     .style('width', '100%')
     .style('height', '100%')
@@ -9,6 +11,12 @@ function flex_center_test() {
   flex_center(container);
 }
 
-if(location.hash === '#flex_center_test') {
-  load_js('flex_center.js', flex_center_test);
-}
+body.append('a')
+  .attr('href', '#flex_center_test')
+  .html('flex_center_test');
+
+window.onhashchange = function () {
+  if(location.hash === '#flex_center_test') {
+    load_js('flex_center.js', flex_center_test);
+  }
+};
