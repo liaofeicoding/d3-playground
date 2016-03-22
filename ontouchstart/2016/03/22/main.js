@@ -9,3 +9,5 @@ var container = d3.select('div#container');
 var [w, h] = [container.style('width'), container.style('height')].map(parseFloat);
 console.log(w, h);
 var h1 = container.append('h1').html('hello world');
+
+flex_center(container);
