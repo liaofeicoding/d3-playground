@@ -1,6 +1,6 @@
 var body = d3.select('body');
 
-function flex_center_test() {
+function test_flex_center_center() {
   body.html('');
   var container = body.append('div')
     .style('width', '100%')
@@ -13,16 +13,20 @@ function flex_center_test() {
 
 function init() {
   body.html('');
-  body.append('button')
+  var ul = body.append('ul');
+  ul.style('display', 'block')
+    .style('margin-top', '1em')
+    .style('margin', 'auto');
+  ul.append('li')
     .append('a')
-    .attr('href', '#flex_center_test')
-    .html('flex_center_test');
+    .attr('href', '#test_flex_center_center')
+    .html('Test flex_center_center');
 }
 
 function load () {
   switch (location.hash) {
-    case '#flex_center_test': 
-      load_js('flex_center.js', flex_center_test);
+    case '#test_flex_center_center': 
+      load_js('flex_center_center.js', test_flex_center_center);
       break;
     default: 
       init();
