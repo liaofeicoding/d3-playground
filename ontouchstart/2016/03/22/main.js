@@ -11,14 +11,21 @@ function flex_center_test() {
   flex_center(container);
 }
 
-body.append('a')
-  .attr('href', '#flex_center_test')
-  .html('flex_center_test');
-  
+function init() {
+  body.html('');
+  body.append('button')
+    .append('a')
+    .attr('href', '#flex_center_test')
+    .html('flex_center_test');
+}
+
 function load () {
   switch (location.hash) {
-    case '#flex_center_test': load_js('flex_center.js', flex_center_test);
-    break;
+    case '#flex_center_test': 
+      load_js('flex_center.js', flex_center_test);
+      break;
+    default: 
+      init();
   }
 };
 
