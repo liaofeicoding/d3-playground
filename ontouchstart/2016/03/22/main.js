@@ -8,7 +8,7 @@ function test_flex_center_center() {
     .style('background', 'white');
   var h1 = container.append('h1')
     .html('hello world');
-  flex_center(container);
+  flex_center_center(container);
 }
 
 function init() {
