@@ -1,0 +1,22 @@
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <script src="../../../../d3/3.5.16/d3.min.js" charset="utf-8"></script>
+    <title>d3-playground</title>
+    <style>
+      * { margin: 0; padding: 0; }
+      body { display: flex; justify-content: space-around; align-items: center; }
+    </style>
+  </head>
+  <body>
+    <script src="box_in_a_circle.js" charset="utf-8"></script>
+    <script>
+      d3.select('title').html('Square in a Circle');
+      var r = 100;
+      var size = r * Math.sqrt(2);
+      var square = box_in_a_circle(d3.select('body'), r, size, size);
+      square.style('background', 'red');
+    </script>
+  </body>
+</html>
