@@ -1,0 +1,15 @@
+---
+layout: d3
+title: 水果
+data:
+  nav: nav.json
+---
+<script src='/d3-playground/jquery/2.2.1/jquery.min.js'></script>
+<script src="load_bootstrap.js"></script>
+<script src="nav.js"></script>
+<script>
+load_bootstrap();
+d3.json('{{ page.data.nav }}', function (e, d) {
+  if(!e) { nav(d3.select('body'), d); }
+});
+</script>
