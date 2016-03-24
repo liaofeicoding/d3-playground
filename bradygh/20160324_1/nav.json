@@ -1,0 +1,22 @@
+---
+data:
+  home:
+    url: "#"
+    html: 水果 
+  nav: 
+    - 
+      url: "#apple"
+      html: 苹果 
+    - 
+      url: "#banana"
+      html: 香蕉
+    - 
+      url: "#cherry"
+      html: 樱桃 
+    - 
+      url: "#contact"
+      html: 联系
+    - 
+      url: "#about"
+      html: 关于
+---
