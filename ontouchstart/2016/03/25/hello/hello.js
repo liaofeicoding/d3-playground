@@ -1,5 +1,4 @@
-!function () { // http://stackoverflow.com/questions/3755606/what-does-the-exclamation-mark-do-before-the-function
-
+!function () {
   var hello = {
     version: "0.0.1"
   };

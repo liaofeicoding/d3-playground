@@ -1,6 +1,6 @@
 # 2016/03/25
 
-Test module for both browser and `node.js`
+Module for both browser and `node.js`
 
 - [hello.js](hello.js)
 - [main.js](main.js)
