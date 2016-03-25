@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-var hello = require('./hello').hello;
+var hello = require('./hello');
 console.log(hello('world'));

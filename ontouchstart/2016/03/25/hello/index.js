@@ -1,23 +1,17 @@
 !function () {
-  var hello = {
-    version: "0.0.1"
-  };
-  
   function main (name) {
     return `Hello ${name}`;
   }
 
-  hello.hello = main;
-
   if (typeof define === "function" && define.amd)  {
-    this.hello = hello, define(hello); 
+    this.hello = main, define(hello); 
   }
   else {
     if (typeof module === "object" && module.exports) {
-      module.exports = hello; 
+      module.exports = main; 
     }
     else {
-      this.hello = hello;
+      this.hello = main;
     }
   }
 }();

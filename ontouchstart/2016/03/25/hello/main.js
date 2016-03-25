@@ -1,2 +1,2 @@
-document.title = hello.hello('world');
-document.body.innerHTML = hello.hello('world'); 
+document.title = hello('world');
+document.body.innerHTML = hello('world'); 
