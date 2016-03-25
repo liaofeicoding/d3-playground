@@ -15,4 +15,4 @@ Hello world
 ```
 Test in browser
 
-- [Test page](https://bigdata-mindstorms.github.io/d3-playground/ontouchstart/2016/03/25/index.html)
+- [Test page](https://bigdata-mindstorms.github.io/d3-playground/ontouchstart/2016/03/25/hello/index.html)
