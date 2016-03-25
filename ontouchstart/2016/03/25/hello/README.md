@@ -2,7 +2,7 @@
 
 Module for both browser and `node.js`
 
-- [hello.js](hello.js)
+- [index.js](index.js)
 - [main.js](main.js)
 - [index.html](index.html) (for browser)
 - [test.js](test.js) (for `node.js`)
