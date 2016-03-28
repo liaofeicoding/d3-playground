@@ -1,4 +1,15 @@
 ---
 layout: d3
 title: LP's Website
+data:
+  nav: nav_data.json
 ---
+<script src='/d3-playground/jquery/2.2.1/jquery.min.js'></script>
+<script src="load_bootstrap.js"></script>
+<script src="nav_function.js"></script>
+<script>
+  load_bootstrap();
+  d3.json('{{ page.data.nav }}', function (e, d)) {
+    if(!e) {nav(d3.select('body'), d); }
+  });
+</script>
