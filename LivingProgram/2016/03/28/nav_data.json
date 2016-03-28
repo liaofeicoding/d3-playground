@@ -1,0 +1,20 @@
+---
+data:
+  home:
+    url: "?"
+    html: LP's Website
+  nav:
+    -
+      url: "?Favorite Book"
+      html: Favorite Book
+    -
+      url: "?Favorite Food"
+      html: Favorite Food
+    -
+      url: "?Favorite People"
+      html: Favorite People
+    -
+      url: "?Contacts"
+      html: Contacts
+---
+{{ page.data | jsonify }}
