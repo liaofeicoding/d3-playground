@@ -9,7 +9,7 @@ data:
 <script src="nav_function.js"></script>
 <script>
   load_bootstrap();
-  d3.json('{{ page.data.nav }}', function (e, d)) {
+  d3.json('{{ page.data.nav }}', function (e, d) {
     if(!e) {nav(d3.select('body'), d); }
   });
 </script>
