@@ -15,7 +15,7 @@ http.createServer(function (request, response) {
 	response.writeHead(200, {'Content-Type': 'text/plain'});
 
 	// 发送响应数据 "Hello World, Chian, Beijing"
-	response.end('Hello World, China, Beijing\n');
+	response.end('Hello\n');
 }).listen(8888);
 
 // 终端打印如下信息
