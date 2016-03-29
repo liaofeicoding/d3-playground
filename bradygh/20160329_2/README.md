@@ -1,4 +1,4 @@
-# 2016/03/25
+# 2016/03/29
 
 Module for both browser and `node.js`
 
