@@ -18,3 +18,9 @@ JavaScript Object Notation
 * [Lesson 34](https://github.com/bigdata-mindstorms/d3-playground/issues/34)
 * [Another Site](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * [JSON Site](http://json.org/)
+
+### Lesson 45
+
+Jekyll Starts HERE!
+
+[Lesson 45](https://github.com/bigdata-mindstorms/d3-playground/issues/45)
