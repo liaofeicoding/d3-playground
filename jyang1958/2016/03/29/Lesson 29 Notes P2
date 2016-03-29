@@ -1,0 +1,4 @@
+console.log(d3.select("body"));
+d3.select("body").append("a").html("I'm a.Don't touch me!");
+d3.select("body").append("b").attr("class","p_b").html("I'm a.Can you catch me?Can you give me a red coat?");
+console.log(d3.selectAll("a.a").style("color","red").text());
