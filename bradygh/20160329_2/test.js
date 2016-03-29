@@ -1,12 +1,12 @@
-
+/*
 #!/usr/bin/env node
 var hello = require('.');
 console.log(hello('world,china,beijing'));
 
 var http = require('http');
+*/
 
 
-/*
 http.createServer(function (request, response) {
 
 	// 发送 HTTP 头部 
@@ -20,4 +20,4 @@ http.createServer(function (request, response) {
 
 // 终端打印如下信息
 console.log('Server running at http://127.0.0.1:8888/');
-*/
+
