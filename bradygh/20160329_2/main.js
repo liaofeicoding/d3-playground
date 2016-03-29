@@ -1,2 +1,2 @@
-document.title = hello('world,china,beijing');
+document.title = hello('World,China,Beijing');
 document.body.innerHTML = hello('World,China,Beijing'); 
