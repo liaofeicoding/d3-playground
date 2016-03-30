@@ -6,7 +6,7 @@ function step3() {
   var button = container.append('button').html('Run').on('click', run);
   function run() {
     eval(code.html());
-    container.append('button').html('Next').on('click', step3);
+    container.append('button').html('Next').on('click', step4);
   }
 
   code.html(`
