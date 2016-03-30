@@ -12,6 +12,7 @@ function step3() {
   code.html(`
 var h1 = d3.select('#h1');
 var html = h1.html();
+container.html('');
 var textarea = container.append('textarea');
 textarea.text(html);
 textarea.style('resize', 'none')
