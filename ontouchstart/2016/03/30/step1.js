@@ -18,11 +18,11 @@ function step1() {
     d3.select('head')
       .append('link')
       .attr('rel', 'stylesheet')
-      .attr('href', '../../../../bootstrap/3.3.6/css/bootstrap.min.css');
+      .attr('href', 'https://bigdata-mindstorms.github.io/d3-playground/bootstrap/3.3.6/css/bootstrap.min.css');
     d3.select('head')
       .append('link')
       .attr('rel', 'stylesheet')
-      .attr('href', '../../../../bootstrap/3.3.6/css/bootstrap-theme.min.css');
+      .attr('href', 'https://bigdata-mindstorms.github.io/d3-playground/bootstrap/3.3.6/css/bootstrap-theme.min.css');
     this.bootstrap_version = '3.3.6';
     container.append('pre').html('bootstrap version = ' + this.bootstrap_version);
   }
