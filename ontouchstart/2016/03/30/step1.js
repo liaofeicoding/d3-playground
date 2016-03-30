@@ -1,6 +1,6 @@
 function step1() {
   var h1 = d3.select('#h1');
-  h1.html('Step1 : load Bootstrap');
+  h1.html('Step1: Load Bootstrap');
   var container = d3.select('#container');
   var code = container.append('pre');
   var button = container.append('button').html('Run').on('click', run).attr('class', 'btn btn-primary btn-lg');

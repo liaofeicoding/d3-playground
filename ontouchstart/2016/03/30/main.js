@@ -1,5 +1,6 @@
 window.addEventListener('load', function () {
   var d3 = this.d3;
+  d3.select('head').append('title').html('A Step by Step Exercise with d3 and Bootstrap');
   var body = d3.select('body');
   body.append('div')
     .attr('class', 'jumbotron')
