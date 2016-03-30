@@ -9,8 +9,7 @@ function step1() {
     eval(code.html());
     button.style('display', 'none');
     h1.html('Now we have Bootstrap');
-    container.append('button').html('Next').on('click', step2).attr('class', 'btn btn-primary btn-lg');
-
+    container.append('button').html('Step 2').on('click', step2).attr('class', 'btn btn-primary btn-lg');
   };
 
   code.html(`

@@ -5,7 +5,7 @@ function step2() {
   var button = container.append('button').html('Run').on('click', run).attr('class', 'btn btn-primary btn-lg');
   function run() {
     eval(code.html());
-    container.append('button').html('Next').on('click', step3).attr('class', 'btn btn-primary btn-lg');
+    container.append('button').html('Step 3').on('click', step3).attr('class', 'btn btn-primary btn-lg');
   }
 
   code.html(`

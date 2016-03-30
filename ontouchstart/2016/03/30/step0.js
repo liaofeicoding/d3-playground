@@ -1,6 +1,6 @@
 function step0() {
   var container = d3.select('#container');
-  container.append('button').html('Let\'s start').on('click', run).attr('class', 'btn btn-primary btn-lg');
+  container.append('button').html('Step 1').on('click', run).attr('class', 'btn btn-primary btn-lg');
   var html = d3.select('html').html();
 
   var textarea = container.append('textarea');
