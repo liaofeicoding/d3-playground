@@ -3,10 +3,10 @@ function step3() {
   var container = d3.select('#container').html('');
 
   var code = container.append('pre');
-  var button = container.append('button').html('Run').on('click', run);
+  var button = container.append('button').html('Run').on('click', run).attr('class', 'btn btn-primary btn-lg');
   function run() {
     eval(code.html());
-    container.append('button').html('Next').on('click', step4);
+    container.append('button').html('Next').on('click', step4).attr('class', 'btn btn-primary btn-lg');
   }
 
   code.html(`

@@ -3,13 +3,14 @@ function step1() {
   h1.html('Step1 : load Bootstrap');
   var container = d3.select('#container');
   var code = container.append('pre');
-  var button = container.append('button').html('Run').on('click', run);
+  var button = container.append('button').html('Run').on('click', run).attr('class', 'btn btn-primary btn-lg');
 
   function run() {
     eval(code.html());
     button.style('display', 'none');
     h1.html('Now we have Bootstrap');
-    container.append('button').html('Next').on('click', step2);
+    container.append('button').html('Next').on('click', step2).attr('class', 'btn btn-primary btn-lg');
+
   };
 
   code.html(`
