@@ -19,6 +19,6 @@ window.addEventListener('load', function () {
   text = svg.append('text').text(hello_world);
   text.attr('fill', 'blue');
   text.attr('x', '1em');
-  text.attr('y', `${hello_world.length / 2} em`);
+  text.attr('y', `${hello_world.length / 2}em`);
 
 });
