@@ -12,4 +12,5 @@ window.addEventListener('load', function () {
   container.append('h1').html('hello world');
   var version = container.append('pre');
   version.html(`d3.version = ${d3.version}`);
+  svg_box(container).style('background', 'orange');
 });
