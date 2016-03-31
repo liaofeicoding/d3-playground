@@ -8,9 +8,17 @@ window.addEventListener('load', function () {
     .style('justify-content', 'center')
     .style('align-items', 'center');
 
+  var hello_world = 'hello world';
+
   var container = fullscreen.append('div'); 
-  container.append('h1').html('hello world');
+  container.append('h1').html(hello_world);
   var version = container.append('pre');
   version.html(`d3.version = ${d3.version}`);
-  svg_box(container).style('background', 'orange');
+  var svg = svg_box(container).style('background', 'orange');
+
+  text = svg.append('text').text(hello_world);
+  text.attr('fill', 'blue');
+  text.attr('x', '1em');
+  text.attr('y', `${hello_world.length / 2} em`);
+
 });
