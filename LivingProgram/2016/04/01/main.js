@@ -13,7 +13,7 @@ function top_center() {
     .style('justify-content', 'center')
     .style('align-items', 'flex-start');
   var h1 = container.append('h1')
-    .html('I'm on top);
+    .html('Im on top');
 }
 
 function right_center() {
@@ -25,7 +25,7 @@ function right_center() {
     .style('justify-content', 'flex-end')
     .style('align-items', 'center');
   var h1 = container.append('h1')
-    .html('I'm to the right);
+    .html('Im to the right');
 }
 
 function init() {
