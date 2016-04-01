@@ -1,7 +1,7 @@
 var head = d3.select('head');
 var body = d3.select('body');
 
-head.select('title').html('LivingProgram's study of CSS flexible boxes')
+head.select('title').html('LivingPrograms study of CSS flexible boxes')
 
 function top_center() {
   body.html('');
