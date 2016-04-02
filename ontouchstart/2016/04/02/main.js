@@ -17,9 +17,9 @@ window.addEventListener('load', function () {
 
   var data = {
     w : 256,
-    h : 256,
-    content : hello_world
+    h : 256
   };
-  container.call(svg_box, data);
-  svg_box(container, data); // the same effect
+  container.call(svg_box, data); // default content
+  data.content = hello_world; 
+  svg_box(container, data); // Chinese version
 });
