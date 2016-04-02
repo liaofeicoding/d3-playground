@@ -21,6 +21,14 @@ This Is The Part That Gets Searched (Search Query)
 
 </head>
 
+### Anchor Notes
+<a href="Web Link Here">Website Name</a>
+
+### Tags
+<h1>Name</h1>
+<h2>Quick Info</h2>
+<p>Explanation or Background Here</p>
+
 ### Tricks to URLs
 
 * Use Words in URLs
@@ -30,3 +38,14 @@ This Is The Part That Gets Searched (Search Query)
 ### Tricks to the Website Itself
 * Allow for partial URLs to bring you to your page
 * Allow people to use html since Java/Flash may not always work
+* Link to your root page
+
+### Other Ways to Advertise
+* Use other links to link to your own website
+* Use a Variety of Keywords
+* Use concise, but accurate description of the page
+* Don't make it too wordy
+* Descriptive in a couple of words
+* Optimize Image Usage
+
+### 
