@@ -1,5 +1,6 @@
 ## SEO
 
+[SEO Link](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 Look at Codes
 
 ### Head Notes
@@ -19,3 +20,13 @@ This Is The Part That Gets Searched (Search Query)
 <meta name="description=" content="Basically, this is supposed to give a description">
 
 </head>
+
+### Tricks to URLs
+
+* Use Words in URLs
+* Avoid Excessive Keywords
+* Use 1 URL
+
+### Tricks to the Website Itself
+* Allow for partial URLs to bring you to your page
+* Allow people to use html since Java/Flash may not always work
