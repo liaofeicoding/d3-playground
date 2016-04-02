@@ -29,6 +29,9 @@ This Is The Part That Gets Searched (Search Query)
 <h2>Quick Info</h2>
 <p>Explanation or Background Here</p>
 
+* <h1> is the most important
+* <h6> is the least important
+
 ### Tricks to URLs
 
 * Use Words in URLs
