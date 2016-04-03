@@ -51,4 +51,17 @@ This Is The Part That Gets Searched (Search Query)
 * Descriptive in a couple of words
 * Optimize Image Usage
 
-### 
+### Having the Website Searched with Mobile Devices
+Set the Code As:
+
+SetEnvIf User-Agent "Googlebot-Mobile" allow_ua
+SetEnvIf User-Agent "Android" allow_ua
+SetEnvIf User-Agent "BlackBerry" allow_ua
+SetEnvIf User-Agent "iPhone" allow_ua
+SetEnvIf User-Agent "NetFront" allow_ua
+SetEnvIf User-Agent "Symbian OS" allow_ua
+SetEnvIf User-Agent "Windows Phone" allow_ua
+Order deny,allow
+deny from all
+allow from env=allow_ua
+
