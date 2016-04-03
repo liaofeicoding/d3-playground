@@ -32,6 +32,12 @@ This Is The Part That Gets Searched (Search Query)
 * <h1> is the most important
 * <h6> is the least important
 
+### Meta Tags
+* Meta Tags describe the page
+* Not all meta tags help lead people to your website
+* More About Keywords
+* May Not Make Sense
+
 ### Tricks to URLs
 
 * Use Words in URLs
