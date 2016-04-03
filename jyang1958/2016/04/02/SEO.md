@@ -82,4 +82,3 @@ SetEnvIf User-Agent "Windows Phone" allow_ua
 Order deny,allow
 deny from all
 allow from env=allow_ua
-
