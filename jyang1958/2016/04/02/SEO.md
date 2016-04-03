@@ -1,6 +1,7 @@
 ## SEO
 
 [SEO Link](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
+
 [Google Support](https://support.google.com/webmasters/answer/79812?hl=en)
 
 "Look at Codes Below Please:"
