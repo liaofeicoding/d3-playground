@@ -36,7 +36,7 @@ This Is The Part That Gets Searched (Search Query)
 
 * Use Words in URLs
 * Avoid Excessive Keywords
-* Use 1 URL
+* Use 1 URL Easy to Type/Remember
 
 ### Tricks to the Website Itself
 * Allow for partial URLs to bring you to your page
@@ -54,6 +54,11 @@ This Is The Part That Gets Searched (Search Query)
 ### Naturally Links Webpages
 * Have other webpages link to your webpage
 * Have other websites advertise for you
+
+### Content
+* The content needs to be high quality if you want visitors to return
+* The content needs to be useful
+* Give the information needed
 
 ### Having the Website Searched with Mobile Devices
 Set the Code As:
