@@ -51,6 +51,10 @@ This Is The Part That Gets Searched (Search Query)
 * Descriptive in a couple of words
 * Optimize Image Usage
 
+### Naturally Links Webpages
+* Have other webpages link to your webpage
+* Have other websites advertise for you
+
 ### Having the Website Searched with Mobile Devices
 Set the Code As:
 
