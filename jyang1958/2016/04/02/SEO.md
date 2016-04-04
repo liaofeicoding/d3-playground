@@ -6,6 +6,15 @@
 
 "Look at Codes Below Please:"
 
+### Generally
+* To optimize SEO, it isn't just about the meta tags or some of the tags we place
+* The content in the page matters
+* The content needs to be quality, efficient content
+* Refine keyword search for best
+* SEO isn't guaranteed
+* Not always guaranteed to work
+* Never link to SEO
+
 ### Head Notes
 * Title should be within the head tag
 
