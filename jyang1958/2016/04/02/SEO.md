@@ -11,7 +11,9 @@
 * The content in the page matters
 * The content needs to be quality, efficient content
 * Refine keyword search for best
-* SEO isn't guaranteed
+* SEO isn't always accurate
+* SEO doesn't really develop anything particiularly new (content-wise)
+* SEO varies from place to place potentially (so Number 1 on East Coast may not be the Number 1 search on the West Coast)
 * Not always guaranteed to work
 * Never link to SEO
 
