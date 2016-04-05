@@ -4,7 +4,7 @@
 
 [Google Support](https://support.google.com/webmasters/answer/79812?hl=en)
 
-"Look at Codes Below Please:"
+Codes Are Written Below!!
 
 ### Generally
 * To optimize SEO, it isn't just about the meta tags or some of the tags we place
