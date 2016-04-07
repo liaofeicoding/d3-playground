@@ -1,4 +1,4 @@
-//title, meta description, meta keywords, open graph protocal tags
+//title, meta description, meta keywords
 function title_tag(title) {
   d3.select('title').remove();
   d3.select('head').append('title').html(title);
