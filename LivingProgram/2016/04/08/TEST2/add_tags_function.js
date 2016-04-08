@@ -10,9 +10,14 @@ function add_tags(data) {
   d3.select('head').append('meta').attr("name", "keywords").attr("content", data.keywords);
 
   //all og tags
-  d3.select('head')
-  .selectAll('meta').data(data.ogtags).enter()
-  .append('meta')
-  .attr("property", function (d) { return d.property; })
-  .attr("content", function (d) { return d.content; });
+  function add_data (selection, property, content) {
+    selection.attr("property", property).attr("content", content);
+  }
+  function create_tags(d) {
+    var head = d3.select('head');
+    d.forEach(function (d) {
+      add_data(head.append('meta'), d.property, d.content);
+    });
+  }
+  insert_tags(data.ogtags);
 }
