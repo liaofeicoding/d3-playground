@@ -19,6 +19,12 @@ data:
     -
       property: og:url
       content: http://www.foreversoulsisters.com/
+    -
+      property: og:description
+      content: The Forever Soul Sisters is an enthralling book following the life of two girls and their life as forever SoulSisters.
+    -
+      property: og:site_name
+      content: Forever Soul Sisters The Indigo Adventure
       
       
 ---
