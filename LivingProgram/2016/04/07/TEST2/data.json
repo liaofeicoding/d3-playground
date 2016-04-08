@@ -8,17 +8,17 @@ data:
     - The Forever Soul Sisters is an enthralling book following the life of two girls and their life as forever SoulSisters.
   ogtags:
     -
-      property: og:title
+      property: test
       content: Forever Soul Sisters The Indigo Adventure
     -
-      property: og:type
+      property: tests
       content: book
     -
-      property: og:image
-      content: http://www.foreversoulsisters.com/cover.png
+      property: testss
+      content: testsss
     -
-      property: og:url
-      content: http://www.foreversoulsisters.com/
+      property: testssss
+      content: testsssss
       
       
 ---
