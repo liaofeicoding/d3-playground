@@ -19,5 +19,5 @@ function add_tags(data) {
       add_data(head.append('meta'), d.property, d.content);
     });
   }
-  insert_tags(data.ogtags);
+  create_tags(data.ogtags);
 }
