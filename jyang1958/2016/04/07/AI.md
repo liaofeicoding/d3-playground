@@ -13,3 +13,8 @@
 * AI can also provide answers to solution
 * AI improves products
 
+### Purpose of AI
+* AI is based on utility
+* Ai uses algorithms to learn
+* AI uses classifications
+* AI splits things into categories for easier recognition
