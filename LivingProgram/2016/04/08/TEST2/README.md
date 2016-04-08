@@ -10,3 +10,6 @@ The tags you need are:
 * `og:type`
 * `og:image`
 * `og:url`
+
+## Update (6:48 4/8/2016)
+All og tags have been added the project should be finished.
