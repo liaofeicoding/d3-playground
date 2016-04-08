@@ -9,4 +9,10 @@ function add_tags(data) {
   //meta keywords
   d3.select('head').append('meta').attr("name", "keywords").attr("content", data.keywords);
 
+  //all og tags
+  d3.select('head')
+  .selectAll('meta').data(data.ogtags).enter()
+  .append('meta')
+  .attr("property", function (d) { return d.property; })
+  .attr("content", function (d) { return d.content; });
 }
