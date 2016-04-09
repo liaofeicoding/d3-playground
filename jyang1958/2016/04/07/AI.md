@@ -19,4 +19,11 @@
 * AI uses classifications
 * AI splits things into categories for easier recognition
 
-###
+### Music Uses For AI
+[Example of AI in Music](https://www.apexvj.com/v3/player?s=199615591)
+* AI can be used to generate video pertaining to the music
+* It helps viewers visualize the emotions of the new videos
+* The music may be more interesting and better to listen to
+* Each video is unique
+
+### 
