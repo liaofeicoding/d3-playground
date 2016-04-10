@@ -25,6 +25,6 @@ function step1() {
     this.bootstrap_version = '3.3.6';
     container.append('pre').html('bootstrap version = ' + this.bootstrap_version);
   }
- );
+ `);
 
 }
