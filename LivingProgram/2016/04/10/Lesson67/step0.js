@@ -1,4 +1,4 @@
-function setp0() {
+function step0() {
   var container = d3.select('#container'); //this is the container that was created before
   container.append('button').html('Step 1').on('click', run).attr('class', 'btn btn-primary btn-lg'); //a bootstrap button, with the styling of a primary button, also a large button
   var html = d3.select('html').html(); //get the html contents
