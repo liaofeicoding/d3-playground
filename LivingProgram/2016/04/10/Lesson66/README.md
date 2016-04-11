@@ -22,5 +22,5 @@ $ ./build
 ```
 Test in browser
 
-- [Browserify version](https://bigdata-mindstorms.github.io/d3-playground/LivingProgram/2016/04/10/index.html)
-- [Script include version](https://bigdata-mindstorms.github.io/d3-playground/LivingProgram/2016/04/10/hello.html)
+- [Browserify version](https://bigdata-mindstorms.github.io/d3-playground/LivingProgram/2016/04/10/Lesson66/index.html)
+- [Script include version](https://bigdata-mindstorms.github.io/d3-playground/LivingProgram/2016/04/10/Lesson66/hello.html)
