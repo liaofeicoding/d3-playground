@@ -9,22 +9,31 @@ meta : # see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
     content : IE=edge
   - name : viewport
     content : width=device-width, initial-scale=1
+style :
+  button :
+    display : inline-block
+    font-size : 24px
+    padding : 10px
+    margin: 10px
+    color : white
+    border-radius : 10px
+    border : none
 js : |
   body = d3.select('body').style('padding', '1em');
 
   run_button = body.append('button')
-    .style('display', 'inline-block')
-    .style('margin-right', '1em')
+    .style('background', 'green')
     .html('Run 运行')
     .on('click', run);
 
   see_button = body.append('button')
+    .style('background', 'green')
     .style('display', 'none')
     .html('See the code 看代码')
     .on('click', see);
 
   hide_button = body.append('button')
-    .style('display', 'inline-block')
+    .style('background', 'red')
     .html('Hide the code 藏代码')
     .on('click', hide);
 
@@ -51,6 +60,7 @@ js : |
     eval(code.text());
   }
   code.text("d3.select('body').append('pre').html(`d3.version = ${d3.version}`);");
+  see();
 ---
 <!DOCTYPE html>
 <html>
@@ -59,6 +69,15 @@ js : |
     <meta {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}>
     {% endfor %}
     <title>{{ page.title }}</title>
+    <style>
+    {% for selector in page.style %}
+      {{ selector[0] }} {
+       {% for css in selector[1] %}
+         {{ css[0] }} : {{ css[1] }}; 
+       {% endfor %}
+      }
+    {% endfor %}
+    </style>
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
   </head>
   <body>
