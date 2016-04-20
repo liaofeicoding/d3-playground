@@ -5,3 +5,4 @@ Based on https://github.com/bigdata-mindstorms/jekyll-playground/tree/gh-pages/p
 In this lesson we learn how to make single page prototypes with [Jekyll Front Matter](https://jekyllrb.com/docs/frontmatter/).
 
 - [GitHub Ribbon](https://bigdata-mindstorms.github.io/d3-playground/ontouchstart/2016/04/20/github_ribbon.html)
+- [Blank with GitHub Ribbon](https://bigdata-mindstorms.github.io/d3-playground/ontouchstart/2016/04/20/0.html)
