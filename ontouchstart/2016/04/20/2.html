@@ -69,8 +69,8 @@ js : |
   }
   code.text(`
     d3.select('body')
-      .append('pre')
-      .html("d3.version = " + d3.version);
+      .append('code')
+      .html(new Date);
    `);
   see();
 ---
