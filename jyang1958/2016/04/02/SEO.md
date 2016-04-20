@@ -18,6 +18,8 @@ Codes Are Written Below!!
 * SEO varies from place to place potentially (so Number 1 on East Coast may not be the Number 1 search on the West Coast)
 * Not always guaranteed to work
 * Never link to SEO
+* Webpages should be user friendly, not search friendly
+* Be wary of redirects
 
 ### Head Notes
 * Title should be within the head tag
