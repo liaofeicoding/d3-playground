@@ -59,7 +59,11 @@ js : |
   function run () {
     eval(code.text());
   }
-  code.text("d3.select('body').append('pre').html(`d3.version = ${d3.version}`);");
+  code.text(`
+    d3.select('body')
+      .append('pre')
+      .html("d3.version = " + d3.version);
+   `);
   see();
 ---
 <!DOCTYPE html>
