@@ -1,10 +1,14 @@
 ## Google SEO
 
+### Search Engine Optimization
+
 [SEO Link](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
 [Google Support](https://support.google.com/webmasters/answer/79812?hl=en)
 
 [Some Guidelines](https://support.google.com/webmasters/answer/35769?hl=en)
+
+[Some Tutorial Thing](http://www.hobo-web.co.uk/seo-tutorial/)
 
 Codes Are Written Below!!
 
