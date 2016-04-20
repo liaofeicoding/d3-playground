@@ -2,6 +2,8 @@
 
 ### Search Engine Optimization
 
+### Codes are Mainly in JavaScript
+
 [SEO Link](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
 [Google Support](https://support.google.com/webmasters/answer/79812?hl=en)
@@ -24,6 +26,15 @@ Codes Are Written Below!!
 * Never link to SEO
 * Webpages should be user friendly, not search friendly
 * Be wary of redirects
+* Better Quality=Better Traffic
+
+### Facts
+* 90% of the world searches are from Google
+* This also means a lot of traffic
+* Google gets 100 B+ searches a month
+* More than 50% of searches come from mobile devices
+* However, only 50% of the searches are considered to be secure
+* Google accounts for almost 40% of internet traffic, sometimes it can go up to 65%
 
 ### Head Notes
 * Title should be within the head tag
