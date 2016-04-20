@@ -22,5 +22,8 @@ meta : # see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
   </head>
   <body>
     <a href="//github.com/{{ page.user }}/{{ page.repo }}/{{ page.url }}">{{ page.ribbon }}</a>
+    <script>
+      d3.select('body').append('pre').html(`d3.version = ${d3.version}`);
+    </script>
   </body>
 </html>
