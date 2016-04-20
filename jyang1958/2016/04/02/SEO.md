@@ -4,6 +4,8 @@
 
 [Google Support](https://support.google.com/webmasters/answer/79812?hl=en)
 
+[Some Guidelines](https://support.google.com/webmasters/answer/35769?hl=en)
+
 Codes Are Written Below!!
 
 ### Generally
