@@ -11,8 +11,8 @@ meta : # see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
     content : width=device-width, initial-scale=1
 style :
   button :
-    display : inline-block
-    font-size : 24px
+    display : block
+    font-size : 20px
     padding : 10px
     margin: 10px
     color : white
@@ -23,7 +23,7 @@ js : |
 
   run_button = body.append('button')
     .style('background', 'green')
-    .html('Run 运行')
+    .html('Run the code 运行代码')
     .on('click', run);
 
   see_button = body.append('button')
@@ -39,20 +39,20 @@ js : |
 
   code = body.append('pre')
     .attr('contenteditable', true)
-    .style('display', 'inline-block')
+    .style('display', 'block')
     .style('white-space', 'pre-wrap')
     .style('padding','1em')
     .style('border','1px solid #CCC');
 
   function see () {
     see_button.style('display', 'none');
-    hide_button.style('display', 'inline-block');
+    hide_button.style('display', 'block');
     code.style('display', 'block');
   }
 
   function hide () {
     hide_button.style('display', 'none');
-    see_button.style('display', 'inline-block');
+    see_button.style('display', 'block');
     code.style('display', 'none');
   }
 
