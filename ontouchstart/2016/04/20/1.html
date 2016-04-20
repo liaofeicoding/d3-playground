@@ -1,0 +1,26 @@
+---
+title : Blank d3 with GitHub Ribbon
+user : bigdata-mindstorms
+repo : d3-playground/tree/gh-pages
+ribbon : '<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />'
+meta : # see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+  - charset : utf-8
+  - http-equiv : X-UA-Compatible
+    content : IE=edge
+  - name : viewport
+    content : width=device-width, initial-scale=1
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% for line in page.meta %}
+    <meta {% for item in line %}{{ item[0] }}="{{ item[1] }}" {% endfor %}>
+    {% endfor %}
+    <title>{{ page.title }}</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+  </head>
+  <body>
+    <a href="https://github.com/{{ page.user }}/{{ page.repo }}/{{ page.url }}">{{ page.ribbon }}</a>
+  </body>
+</html>
