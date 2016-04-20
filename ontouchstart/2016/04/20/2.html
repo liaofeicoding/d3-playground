@@ -14,10 +14,19 @@ style :
     display : block
     font-size : 20px
     padding : 10px
-    margin: 10px
+    margin : 0
+    margin-top : 10px
     color : white
     border-radius : 10px
     border : none
+  #code :
+    display : block
+    padding : 2px
+    margin : 0
+    margin-top : 10px   
+    white-space : pre-wrap
+    color : green
+    background : black
 js : |
   body = d3.select('body').style('padding', '1em');
 
@@ -38,11 +47,8 @@ js : |
     .on('click', hide);
 
   code = body.append('pre')
-    .attr('contenteditable', true)
-    .style('display', 'block')
-    .style('white-space', 'pre-wrap')
-    .style('padding','1em')
-    .style('border','1px solid #CCC');
+    .attr('id', 'code')
+    .attr('contenteditable', true);
 
   function see () {
     see_button.style('display', 'none');
