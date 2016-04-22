@@ -27,6 +27,9 @@ Codes Are Written Below!!
 * Webpages should be user friendly, not search friendly
 * Be wary of redirects
 * Better Quality=Better Traffic
+* Never Duplicate Content
+* Redirects May=Spam
+* Make Sure that Non WWW turns into WWW
 
 ### Facts
 * 90% of the world searches are from Google
@@ -70,6 +73,7 @@ This Is The Part That Gets Searched (Search Query)
 * Not all meta tags help lead people to your website
 * More About Keywords
 * May Not Make Sense
+* No Sentences
 
 ### Tricks to URLs
 
