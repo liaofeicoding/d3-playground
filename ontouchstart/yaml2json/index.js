@@ -44,6 +44,7 @@ window.onload = function () {
     yaml_code.value = decodeURIComponent(escape(atob("dGl0bGU6IFlBTUwgPD0+IEpTT04KYXBwbGU6IOiLueaenApiYW5hbmE6IOmmmeiViQpjaGVycnk6IOaoseahgwo=")));
   }
   data = js_yaml.load(yaml_code.value)
+  console.log(data);
   json_code.value = JSON.stringify(data);
   if(data.hasOwnProperty('title')) { d3.select('title').html(data['title']) }
 }
