@@ -59,10 +59,11 @@ and the first line is a title for the commit while the second box is where you t
   4. Put the "Year", then a "/"
   5. Put the "Month", then a "/"
   6. Put the "Day", then a "/"
-  7. Finally put "README.md" (README's help others to understand the folder's content
+  7. Finally put "README.md" (README's are documents written in markdown language, and almost every folder should have a README as it help others to understand the folder's content. You will notice that it always appears at the bottom of any folder:) ![image](https://cloud.githubusercontent.com/assets/16373135/14815318/aacdd4f6-0b78-11e6-8f0f-b97a937e8069.png)
   8. Type in a title and description at the bottom, and "Commit New File"
   
 :+1: You just made a file!
+Everyday you do work, you have to make a new folder for the date and do work in that folder for the day. 
 
 In order to reply to issues and ontouchstart's lessons, you have to learn markdown... 
 
@@ -71,19 +72,25 @@ In order to reply to issues and ontouchstart's lessons, you have to learn markdo
 (click this...) :point_right:[Here](https://guides.github.com/features/mastering-markdown/) are some basic features in markdown, 
 and they are enough for you to write comments in the issues, or write markdown files.
 
-[This](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a cheatsheet (which also includes how to embed **cool videos** 
-like the ones above)
+[This](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a cheatsheet which includes similar information but also a couple extra things.
 
-What do you do now :question:
+Now you will experiment with every single markdown element, because you will need all of them. Learn through usage and not memorization.
 
-Well here is where you have fun :grinning: :wink:
 
-"Play around" with every single markdown element, because you will need all of them. 
+For every element in the [reference](https://guides.github.com/features/mastering-markdown/) you must experiment with the element by creating you own example (and learning the syntax). So create another file in your folder titled: "practice.md" (note that the ".md" extension signifies a markdown file. In this file practice all of the elements and save them. 
+> Remember to make a new folder in your folder every single day (with a new date)
 
-1. Make a new folder every single day (with new date)
-2. Make a new file for every single element
-3. Have fun, make weird tables or lists, explain lists in a list, etc...
-4. After doing all elements, create a single file that showcases your knowledge of markdown and includes all markdown elements.
-## Learn through USAGE not memorization
-> if you don't remember some of the stuff now, don't worry, later on when you **use** it you **will remember**
-Go Ahead. 
+Then you will condense all of your work onto one file and post your work here: https://github.com/bigdata-mindstorms/d3-playground/issues/21
+through a comment.
+
+### For the Future
+Now that you have learned markdown you will learn jekyll, so once again, sign up in [this issue](https://github.com/bigdata-mindstorms/d3-playground/issues/45). Ontouchstart will give you access to the jekyll-playground where you will start on the first lessons and finish the course. 
+
+Afterwards you will learn javascript through d3.js and node.js, d3.js is taught in this repository with [this](https://github.com/bigdata-mindstorms/d3-playground/issues/23) being the first assignment. After finishing an assignment simply move onto the next issue. 
+> Note that all the issues are closed so you will have to click closed to see all of the issues:
+![image](https://cloud.githubusercontent.com/assets/16373135/14815591/4e672e04-0b7a-11e6-9da6-ca25c1b80d3a.png)
+and just look for issue 24. 
+
+After learning d3.js you will learn node.js by signing up [here](https://github.com/bigdata-mindstorms/d3-playground/issues/32). 
+
+Good luck!
