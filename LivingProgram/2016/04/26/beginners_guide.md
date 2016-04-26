@@ -19,18 +19,41 @@ down the line (plus your confusion can be cleared up)
 ### Basic Vocabulary :
 >For navigating github
 
-> Note that for our purposes, 
+Github is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. Github contains many, many "repositories" which are projects like the d3-playground. The entire d3-playground will be referred to as a "repository". 
+![image](https://cloud.githubusercontent.com/assets/16373135/14815104/72a4060a-0b77-11e6-9484-dd30eeb0e228.png)
 
-> 1. Issues are where you can post your work 
-> 2. Don't worry about pull requests or forking
-> 3. gh-pages is the only branch
+In github we will only be concerned about two sections, the main code section:
 
-Now that you know what github is lets get started!:joy: 
+![image](https://cloud.githubusercontent.com/assets/16373135/14814751/a7a330ee-0b75-11e6-9208-4433c5163668.png)
+
+and the issues:
+
+![image](https://cloud.githubusercontent.com/assets/16373135/14814786/cf2e3a64-0b75-11e6-915e-c56694328f06.png)
+
+The main code section contains two things, files and folders: 
+
+![image](https://cloud.githubusercontent.com/assets/16373135/14814830/0508a4f8-0b76-11e6-87a2-c9165189c939.png) ![image](https://cloud.githubusercontent.com/assets/16373135/14814857/23abea1e-0b76-11e6-8f5f-c878f5d01a61.png)
+
+In the files is where you will be writing/saving your code and your files belong in folders. Everything we will be editing and posting will be in the gh-pages branch:
+
+![image](https://cloud.githubusercontent.com/assets/16373135/14814935/8b788ce2-0b76-11e6-9888-6998ba2d4145.png)
+
+This branch is specially named so that github will turn all of the content inside the branch directly into a webpage, and webpages are what we will be working with. 
+
+Finally we have the issues, for our purposes issues will be where you post your work and discuss with other students what you have learned. It can also be the place for you to ask questions. More of an introduction to issues will be presented after you have done the preliminary steps and learned how to use markdown.
+
+> note: in github, saving a file or folder stays forever in the history and that is what makes github unique. Saving is called "comitting so everytime you commit you will see something like this:
+![image](https://cloud.githubusercontent.com/assets/16373135/14815173/cd6b7370-0b77-11e6-9777-2047ccbbfe61.png)
+and the first line is a title for the commit while the second box is where you type your description.
 
 ### Preliminary Steps:
-1. Make sure you have the capability to edit files
+> These are the preliminary steps before you can do anything to get your "workshop" set up.
+
+1. Make sure you have the capability to edit files:
+   * ontouchstart will give you permission to edit files after you sign up in the issue here: https://github.com/bigdata-mindstorms/d3-playground/issues/9
+   * after you have confirmed that ontouchstart has given you permission to edit, you may move on.
 2. Create your own folder:
-  1. Make sure you are in [the repo](https://github.com/bigdata-mindstorms/d3-playground)
+  1. Make sure you are in [the repository](https://github.com/bigdata-mindstorms/d3-playground)
   2. Click "New File"
   3. Type "Your Username", then a "/"
   4. Put the "Year", then a "/"
@@ -41,11 +64,12 @@ Now that you know what github is lets get started!:joy:
   
 :+1: You just made a file!
 
-In order to reply to issues, and make **markdown files**, you have to learn markdown... :smirk:
+In order to reply to issues and ontouchstart's lessons, you have to learn markdown... 
+
 ### Learning Markdown
 > read everything below, before continuing 
 (click this...) :point_right:[Here](https://guides.github.com/features/mastering-markdown/) are some basic features in markdown, 
-and they are enough for you to write comments, or files.
+and they are enough for you to write comments in the issues, or write markdown files.
 
 [This](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a cheatsheet (which also includes how to embed **cool videos** 
 like the ones above)
