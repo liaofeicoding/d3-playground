@@ -6,5 +6,7 @@
 
 ### Js Files
 * Javascript Data
+* Uses it to change to website
+* Logs into console
 
 ### Md Files
