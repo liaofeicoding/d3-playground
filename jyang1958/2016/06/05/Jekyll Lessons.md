@@ -12,7 +12,6 @@
 
 ### Md Files
 * Markdown Code
-* 
 
 Script Tag=Javascript Tag
 Script Tag connects codes
