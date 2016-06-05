@@ -5,6 +5,6 @@
 * Conversion from data to computer-readable data
 
 ### Js Files
-* Used for lists
+* Javascript Data
 
 ### Md Files
