@@ -15,3 +15,5 @@
 
 Script Tag=Javascript Tag
 Script Tag connects codes
+
+Everything within 3 --- is a page
