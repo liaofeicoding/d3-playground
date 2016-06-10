@@ -8,7 +8,7 @@
 #### Js (Javascript) Files
 * Javascript Data
 * Uses it to change to website
-* Logs into console
+* Logs data into console
 
 #### Md Files
 * Markdown Code
