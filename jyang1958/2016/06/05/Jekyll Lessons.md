@@ -5,7 +5,7 @@
 * Conversion from data to computer ---> readable data
 * Mainly data files
 
-#### Js Files
+#### Js (Javascript) Files
 * Javascript Data
 * Uses it to change to website
 * Logs into console
