@@ -6,7 +6,7 @@
 * Mainly data files
 
 #### Js (Javascript) Files
-* Javascript Data
+* Data from Javascript
 * Uses it to change to website
 * Logs data into console
 
