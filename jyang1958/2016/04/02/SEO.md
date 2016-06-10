@@ -42,7 +42,7 @@ Codes Are Written Below:
 ### Head Notes
 * Title should be within the head tag
 
-Codes Below:
+Code:
 
 <head>
 <title>
