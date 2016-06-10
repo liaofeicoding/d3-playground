@@ -14,7 +14,7 @@
 
 Codes Are Written Below:
 
-### Generally
+### General
 * To optimize SEO, it isn't just about the meta tags or some of the tags we place
 * The content in the page matters
 * The content needs to be quality, efficient content
