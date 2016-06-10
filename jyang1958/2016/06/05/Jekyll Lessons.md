@@ -16,4 +16,4 @@
 Script Tag=Javascript Tag
 Script Tag connects codes
 
-Everything within 3 --- is a page
+Everything within the 3 dashed lines --- are a page
