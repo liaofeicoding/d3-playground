@@ -12,7 +12,7 @@
 * Logs data into console
 
 #### Md Files
-* Markdown Code
+* Markdown
 
 Script Tag = Javascript Tag
 Script Tag connects codes from multiple languages
