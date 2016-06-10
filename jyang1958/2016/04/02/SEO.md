@@ -12,7 +12,7 @@
 
 [Some Tutorial Thing](http://www.hobo-web.co.uk/seo-tutorial/)
 
-Codes Are Written Below!!
+Codes Are Written Below:
 
 ### Generally
 * To optimize SEO, it isn't just about the meta tags or some of the tags we place
