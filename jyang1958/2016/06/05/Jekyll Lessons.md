@@ -14,6 +14,6 @@
 * Markdown Code
 
 Script Tag = Javascript Tag
-Script Tag connects codes
+Script Tag connects codes from multiple languages
 
 Everything within the 3 dashed lines --- are a page
