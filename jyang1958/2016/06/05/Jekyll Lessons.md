@@ -3,7 +3,7 @@
 #### Json Files
 * Used for data
 * Conversion from data to computer ---> readable data
-* Data File
+* Mainly data files
 
 #### Js Files
 * Javascript Data
