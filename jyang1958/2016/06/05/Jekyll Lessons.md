@@ -17,4 +17,4 @@
 Script Tag = Javascript Tag
 Script Tag connects codes from multiple languages
 
-Everything within the 3 dashed lines --- indicate a page
+Everything within 3 dashed lines --- indicate a page
