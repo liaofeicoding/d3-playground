@@ -34,7 +34,7 @@ Codes Are Written Below:
 ### Facts
 * 90% of the world searches are from Google
 * This also means a lot of traffic
-* Google gets 100 B+ searches a month
+* Google gets 100 Billion+ searches a month
 * More than 50% of searches come from mobile devices
 * However, only 50% of the searches are considered to be secure
 * Google accounts for almost 40% of internet traffic, sometimes it can go up to 65%
