@@ -7,7 +7,7 @@
 
 #### Js (Javascript) Files
 * Data from Javascript
-* Uses it to change to website
+* 
 * Converts js into website
 * Logs data into console
 
