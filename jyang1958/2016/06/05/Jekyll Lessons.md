@@ -13,7 +13,7 @@
 #### Md Files
 * Markdown Code
 
-Script Tag=Javascript Tag
+Script Tag = Javascript Tag
 Script Tag connects codes
 
 Everything within the 3 dashed lines --- are a page
