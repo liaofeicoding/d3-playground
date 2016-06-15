@@ -25,5 +25,7 @@ d3.select('head')
 <script>
 var url = "{{ page.url }}";
 console.log(url);
+var path = "{{ page.path }}";
+console.log(path);
 </script>
 <script src="main.js" charset="utf-8"></script>
