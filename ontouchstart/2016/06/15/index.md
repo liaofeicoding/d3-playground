@@ -7,6 +7,8 @@ title: 2016/06/15
 
 Turn the first paragraph into blue.
 
+Click the code block to run.
+
 ```javascript
 d3.select('p').style('color', 'blue');
 ```
