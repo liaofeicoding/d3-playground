@@ -5,6 +5,8 @@ title: 2016/06/15
 
 # {{ page.title }}
 
+Turn the title color into blue:
+
 ```javascript
 d3.select('h1').style('color', 'blue');
 ```
