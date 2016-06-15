@@ -22,5 +22,8 @@ d3.select('head')
   .attr('name', 'viewport')
   .attr('content', 'width=device-width');
 ```
-
+<script>
+var url = "{{ page.url }}";
+console.log(url);
+</script>
 <script src="main.js" charset="utf-8"></script>
