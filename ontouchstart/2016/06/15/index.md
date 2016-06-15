@@ -1,7 +1,7 @@
 ---
 title: 2016/06/15
 ---
-<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="d3.v3.min.js" charset="utf-8"></script>
 
 # {{ page.title }}
 
