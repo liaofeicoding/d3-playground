@@ -5,10 +5,10 @@ title: 2016/06/15
 
 # What can you do with `d3.js`?
 
-Turn the title color into blue:
+Turn the first paragraph into blue.
 
 ```javascript
-d3.select('h1').style('color', 'blue');
+d3.select('p').style('color', 'blue');
 ```
 
 <script src="main.js" charset="utf-8"></script>
