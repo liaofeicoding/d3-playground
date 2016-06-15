@@ -9,6 +9,8 @@ d3.select('body')
   .append('button')
   .html('Run all')
   .on('click', function () {
+    d3.select(this)
+      .style('display', 'none');
     d3.selectAll('pre')
       .each(function() {
          eval(d3.select(this).text());
