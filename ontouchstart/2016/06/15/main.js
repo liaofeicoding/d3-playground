@@ -1,3 +1,5 @@
+var url = "{{ page.url }}";
+console.log(url);
 d3.selectAll('pre')
   .style('margin', '1em')
   .style('padding', '1em')
