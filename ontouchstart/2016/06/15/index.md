@@ -10,7 +10,17 @@ Turn the first paragraph into blue.
 Click the code block to run.
 
 ```javascript
-d3.select('p').style('color', 'blue');
+d3.select('p')
+  .style('color', 'blue');
+```
+
+Make the viewport mobile friendly.
+
+```javascript
+d3.select('head')
+  .append('meta')
+  .attr('name', 'viewport')
+  .attr('content', 'width=device-width');
 ```
 
 <script src="main.js" charset="utf-8"></script>
