@@ -23,9 +23,14 @@ d3.select('head')
   .attr('content', 'width=device-width');
 ```
 <script>
-var url = "{{ page.url }}";
-console.log(url);
+var repo = 'https://github.com/bigdata-mindstorms/d3-playground/blob/gh-pages/';
 var path = "{{ page.path }}";
-console.log(path);
+d3.select('body')
+  .append('div')
+  .style('text-align', 'right')
+  .style('padding', '1em')
+  .append('a')
+  .attr('href', repo + path)
+  .html('GitHub source');
 </script>
 <script src="main.js" charset="utf-8"></script>
