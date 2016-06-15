@@ -3,7 +3,7 @@ title: 2016/06/15
 ---
 <script src="d3.v3.min.js" charset="utf-8"></script>
 
-# {{ page.title }}
+# What can you do with `d3.js`?
 
 Turn the title color into blue:
 
